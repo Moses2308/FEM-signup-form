@@ -28,6 +28,7 @@ body {
 main {
   margin: 1.5rem;
 }
+/* page content section */
 .page-content {
   text-align: center;
   padding: 3rem 0;
@@ -40,4 +41,15 @@ main {
 }
 .page-content p {
   font-weight: var(--weight-normal);
+}
+/* page-info section */
+.info__trial {
+  text-align: center;
+  background-color: var(--color-blue);
+  padding: 1.5em 3em;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.trial__emph {
+  font-weight: var(--weight-bold);
 }
