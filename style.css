@@ -7,9 +7,37 @@
   /* Neutral Colors */
   --color-darkBlue: hsl(249, 10%, 26%);
   --color-grayishBlue: hsl(246, 25%, 77%);
+  --color-white: white;
   /* font weights */
   --weight-light: 400;
   --weight-normal: 500;
   --weight-bold: 600;
   --weight-heavy: 700;
+}
+body {
+  min-height: 100vh;
+  background-image: url(images/bg-intro-mobile.png);
+  background-color: var(--color-red);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--color-white);
+
+  display: grid;
+  place-content: center;
+}
+main {
+  margin: 1.5rem;
+}
+.page-content {
+  text-align: center;
+  padding: 3rem 0;
+}
+.page-content h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  font-weight: var(--weight-heavy);
+}
+.page-content p {
+  font-weight: var(--weight-normal);
 }
